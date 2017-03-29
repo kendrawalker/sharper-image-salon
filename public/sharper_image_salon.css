@@ -1,0 +1,424 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+main {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#aboutus-div {
+    height: 700px;
+    width: 100%;
+    background-image: url("/blackhair.jpg");
+    background-size: cover;
+}
+
+#about-titles-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Croissant One";
+    color: white;
+    width: 70%;
+    height: 100%;
+    font-size: 20px;
+}
+
+/*about page formatting*/
+#about-title {
+    font-size: 45px;
+    margin: 0;
+    margin-right: 0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    text-shadow: 2px 2px 0px #000000;
+}
+
+#about-subtitle {
+    margin-top: 20px;
+    text-shadow: 1px 1px 0px #000000;
+    font-weight: bold;
+}
+
+img.about-scissors {
+    width: auto;
+    height: 40px;
+    margin-top: 10px;
+    -webkit-filter: drop-shadow(5px 5px 5px #000);
+      filter: drop-shadow(5px 5px 5px #000);
+}
+
+
+#about-about-div {
+    text-align: center;
+    background-color: #66CDAA;
+    padding: 30px;
+    font-size: 13px;
+    font-family: "Domine";
+}
+
+#about-about-div h3 {
+    margin: 0;
+
+}
+
+#olderwoman {
+    background-image: url("/women-old.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left top;
+    height: 300px;
+    width: 100%;
+    font-family: "Domine";
+}
+
+#olderwoman h2 {
+    margin-left: 20px;
+}
+
+#olderwoman h4 {
+    float: right;
+    width: 40%;
+    height: 150px;
+    margin-right: 8%;
+    margin-top: 50px;
+    font-style: italic;
+}
+
+#family {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+
+.about-pic {
+    height: auto;
+    width: auto;
+    margin-left: 20px;
+}
+
+
+/*services page*/
+#services {
+    width: 100%;
+    height: 100%;
+}
+
+#services-menu {
+    float: left;
+    margin: 0;
+    width: 12%;
+    min-height: calc(100vh - 100px);
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-type-link {
+    font-family: "Domine";
+    color: white;
+    font-weight: bold;
+    margin: 10px;
+}
+
+#services-list {
+    float: right;
+    width: 88%;
+    min-height: calc(100vh - 130px);
+    background-image: url("/hairtools.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+#specific-services-menu {
+    font-family: "Domine";
+    font-weight: bold;
+}
+
+#specific-services-menu h2 {
+    margin-left: 40px;
+}
+
+#specific-services-menu h3 {
+    font-weight: bold;
+    text-align: left;
+    text-decoration: underline;
+    -webkit-margin-after: 0;
+    margin-bottom: 4px;
+}
+
+#specific-services-menu h5 {
+    margin-left: 4px;
+}
+
+/*contact us formatting*/
+#contactus-menu {
+    width: 100%;
+    height: 600px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    background-image: url("/redhead.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: top;
+    vertical-align: bottom;
+}
+
+#contact-loc {
+    float: right;
+    width: 70%;
+}
+
+#address {
+    float: right;
+    width: 80%;
+}
+
+#phone {
+    float: right;
+    width: 80%;
+}
+
+#location-map {
+    border: 3px solid black;
+    width: auto;
+    max-height: 350px;
+}
+
+#quote-bar {
+    top: -5px;
+    width: 100%;
+    height: 30px;
+    background-color: #66CDAA;
+}
+
+#salon-div {
+    background-color: #66CDAA;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.salon-outside {
+    border: 5px double black;
+    width: 250px;
+    height: 200px;
+}
+
+
+/*new customer form page*/
+#new-customer-form {
+    display: inline-block;
+    width: 100%;
+    height: 600px;
+    background-image: url("/littlegirl.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+#submit-data {
+    margin-right: 50px;
+    float: right;
+    width: 30%;
+    height: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#submit-data p {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: "Domine";
+    font-size: 15px;
+}
+
+.textbox-div {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.text-input {
+    width: 100%;
+    font-family: sans-serif;
+    border: 1px solid black;
+}
+
+#text-input-note {
+    width: 100%;
+    height: 170px;
+}
+
+
+/*more about us page*/
+#moreabout {
+    vertical-align: top;
+    width: 100%;
+    height: 580px;
+    font-family: "Domine";
+    background-image: url("/hairdresstools.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+#moreabout-text {
+    -webkit-margin-before: 0;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    width: 70%;
+    height: 30%;
+    font-weight: bold;
+}
+
+#moreabout-text p {
+    -webkit-margin-before: 0;
+}
+
+#moreabout-pics {
+    display: flex;
+    justify-content: space-between;
+    background-color: #66CDAA;
+}
+
+.debaprilpics {
+    max-height: 300px;
+    width: auto;
+    margin: 20px;
+    border: 6px double black;
+}
+
+#owners-text {
+    font-family: "Domine";
+    width: 30%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+
+/*inspiration page*/
+#inspiration-div {
+    background-image: url("/man.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    width: 100%;
+    height: 600px;
+    font-family: "Domine";
+    font-weight: bold;
+}
+
+#insp-phrase {
+    padding: 50px;
+    width: 35%;
+    height: 90%;
+}
+
+#pinterest {
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 98%;
+    height: 300px;
+    background-color: black;
+    overflow: hidden;
+}
+
+
+
+
+/*all page formatting*/
+#titles-div {
+    background-color: #66CDAA;
+    color: white;
+    font-family: "Croissant One";
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 100px;
+    text-decoration: none;
+}
+
+#sharper-logo-div {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+    background-color: inherit;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+
+#link-section {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Croissant One";
+    color: black;
+    font-weight: bold;
+}
+
+.salon-links {
+    color: black;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    font-family: serif;
+    font-weight: bold;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 1024px) {
+    #about-title { font-size: 35px }
+    #specific-services-menu {
+        background-color: white;
+    }
+    #services-list {
+        background-position: bottom center;
+    }
+    .salon-outside {
+        height: 150px;
+        width: 190px;
+    }
+    #contactus-menu {
+        height: 585px;
+    }
+    #owners-text {
+        font-size: 10px;
+    }
+    .debaprilpics {
+        max-height: 200px;
+    }
+    #inspiration-div {
+        height: 430px;
+
+    }
+    #pinterest {
+        padding: 5px;
+    }
+}

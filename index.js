@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+var emailpass = require('./email_password');
 var spicedPg = require('spiced-pg');
 var db = spicedPg(process.env.DATABASE_URL || 'postgres:kendr:soybean88@localhost:5432/sharper_image_salon');
 const bodyParser = require('body-parser');
@@ -14,8 +15,8 @@ var nodemailer = require('nodemailer');
 const transporter = nodemailer.createTransport({
     service: 'Gmail',
     auth: {
-        user: 'sharper.image.salon.batesville@gmail.com',
-        pass: 'debaphair123456'
+        user: emailpass.user,
+        pass: emailpass.pass
     }
 });
 
@@ -66,22 +67,6 @@ io.on('connect', function(socket) {
     });
 });
 
-// let online = [];
-// app.get('/present/:socketId', function(req, res) {
-//     console.log("socket obtained", req.session.user.userID);
-//     let exists = online.find((item) => {
-//         return item.socketId == req.params.socketId;
-//     });
-//     if (!exists) {
-//         online.push({
-//             id: req.session.user.userID,
-//             socketId: req.params.socketId
-//         });
-//         console.log(online);
-//     }
-//     res.send();
-// });
-
 app.get('/', function(req, res){
     if(req.session.user) {
         res.sendFile(__dirname + '/index.html');
@@ -121,14 +106,6 @@ app.post('/newcustomeremail', function(req, res) {
 });
 
 
-// app.get('*', function(req, res) {
-//     if(req.session.user.loggedin == 'yes') {
-//         res.sendFile(__dirname + '/index.html');
-//     } else {
-//         res.redirect('/welcome');
-//     }
-// });
-console.log(process.env.PORT);
 server.listen(process.env.PORT || 8080, function() {
     console.log("I'm listening.");
 });

@@ -17,8 +17,6 @@ export class NewCustomer extends React.Component {
         this.handleChange = this.handleChange.bind(this);
     }
     handleClick(e) {
-        console.log(this);
-        console.log(this.state.lastName, this.state.firstName, this.state.email, this.state.phoneNumber);
         axios({
             method: 'post',
             url: '/newcustomeremail',
@@ -31,7 +29,6 @@ export class NewCustomer extends React.Component {
                 note: this.state.note,
             }
         }).then((res) => {
-            console.log(res);
             if(res.data.success) {
                 alert("You're information was submitted");
                 this.setState({
@@ -51,7 +48,6 @@ export class NewCustomer extends React.Component {
         })
     }
     handleChange(e) {
-        console.log(e.target.value);
         this.setState({
             [e.target.name]: e.target.value,
         });

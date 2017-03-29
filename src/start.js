@@ -29,10 +29,6 @@ window.addEventListener('hashchange', function() {
 
 let router;
 if (location.pathname == '/welcome') {
-    // const socket = io.connect();
-    // socket.on('connect', function() {
-    //     axios.get('/present/' + socket.id);
-    // });
     router = (
         <Router history={hashHistory}>
             <Route path="/" component={Welcome}>
@@ -56,7 +52,7 @@ if (location.pathname == '/welcome') {
  console.log("hello");
 }
 
-alert(location.pathname);
+console.log(location.pathname);
 
 ReactDOM.render(
     router,

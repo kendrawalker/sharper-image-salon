@@ -19,7 +19,7 @@ export function LocationContact (props) {
                         <h2>Find us Here!</h2>
                         <h3>209 S. Main Street, Batesville, IN 47006</h3>
                         <a href="https://goo.gl/maps/xehxumSJFKH2">
-                            <img id="location-map" src="/images/sharperimagemaplocation.jpg"/>
+                            <img id="location-map" src="/images/sharperimage-maplocation.jpg"/>
                         </a>
                     </div>
                 </div>

@@ -10,6 +10,7 @@ main {
     height: 100%;
 }
 
+/*about page formatting*/
 #aboutus-div {
     height: 700px;
     width: 100%;
@@ -22,6 +23,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     font-family: "Croissant One";
     color: white;
     width: 70%;
@@ -29,7 +31,7 @@ main {
     font-size: 20px;
 }
 
-/*about page formatting*/
+
 #about-title {
     font-size: 45px;
     margin: 0;
@@ -43,6 +45,7 @@ main {
     margin-top: 20px;
     text-shadow: 1px 1px 0px #000000;
     font-weight: bold;
+    font-size: 30px
 }
 
 img.about-scissors {
@@ -377,6 +380,9 @@ img.about-scissors {
     font-family: "Croissant One";
     color: black;
     font-weight: bold;
+    font-size: 18px;
+    padding-top: 6px;
+    padding-bottom: 4px;
 }
 
 .salon-links {
@@ -420,4 +426,6 @@ footer {
     #pinterest {
         padding: 5px;
     }
+    #location-map {
+        max-height: 250px;
 }

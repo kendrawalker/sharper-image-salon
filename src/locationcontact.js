@@ -13,10 +13,10 @@ export function LocationContact (props) {
                 <div id="contact-loc">
                     <div id="phone">
                         <h2>Contact Us Today!</h2>
-                        <h3>(812)934-3000</h3>
+                        <a href="tel:18129343000"><h3>(812)934-3000</h3></a>
                     </div>
                     <div id="address">
-                        <h2>Find us Here!</h2>
+                        <h2>Find Us Here:</h2>
                         <h3>209 S. Main Street, Batesville, IN 47006</h3>
                         <a href="https://goo.gl/maps/xehxumSJFKH2">
                             <img id="location-map" src="/images/sharperimage-maplocation.jpg"/>

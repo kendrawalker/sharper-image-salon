@@ -128,7 +128,7 @@ app.post('/newcustomeremail', function(req, res) {
 //         res.redirect('/welcome');
 //     }
 // });
-
+console.log(process.env.PORT);
 server.listen(process.env.PORT || 8080, function() {
     console.log("I'm listening.");
 });

@@ -24,7 +24,7 @@ export function MoreAboutUs (props) {
                     <p>April has been in the beauty industry for almost 20 years.</p>
                     <p>Both owners have taken extensive classes in coloring and cutting hair.</p>
                 </div>
-                <img className="debaprilpics" src="/deb.jpg" />
+                <img className="debaprilpics" src="/images/deb.jpg" />
             </div>
         </div>
     )

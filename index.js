@@ -48,7 +48,7 @@ app.use(cookieSession({
 app.use(cookieParser());
 app.use(express.static(__dirname + '/public'));
 app.use("/uploads", express.static(__dirname + '/public/uploads'));
-app.use("/images", express.static(__dirname + '/public/images'));
+app.use("/images", express.static(__dirname + '/public/images'));  
 app.use(bodyParser.urlencoded({
     extended: false
 }));

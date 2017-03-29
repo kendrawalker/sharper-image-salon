@@ -337,7 +337,7 @@ img.about-scissors {
 #pinterest {
     margin: 0;
     padding: 10px;
-    display: flex;
+    display: none;
     justify-content: space-around;
     align-content: center;
     height: 300px;

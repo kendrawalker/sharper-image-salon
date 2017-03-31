@@ -12,7 +12,7 @@ export class Inspirations extends React.Component {
         return (
             <div id="inspiration">
                 <Link id="titles-div" to="/">
-                    <div id="sharper-logo-div"><img className="about-scissors" src="/whitescissorsleft.png" /><h1 id="about-title">Sharper Image Salon</h1><img className="about-scissors" src="/whitescissors.png" /></div>
+                    <div id="sharper-logo-div"><img className="about-scissors" src="/images/whitescissorsleft.gif" /><h1 id="about-title">Sharper Image Salon</h1><img className="about-scissors" src="/images/whitescissors.gif" /></div>
                 </Link>
                 <div id="inspiration-div">
                     <div id="insp-phrase">

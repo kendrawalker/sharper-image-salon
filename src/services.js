@@ -7,7 +7,7 @@ export function Services (props) {
     return (
         <div id="services">
             <Link id="titles-div" to="/">
-                <div id="sharper-logo-div"><img className="about-scissors" src="/whitescissorsleft.png" /><h1 id="about-title">Sharper Image Salon</h1><img className="about-scissors" src="/whitescissors.png" /></div>
+                <div id="sharper-logo-div"><img className="about-scissors" src="/images/whitescissorsleft.gif" /><h1 id="about-title">Sharper Image Salon</h1><img className="about-scissors" src="/images/whitescissors.gif" /></div>
             </Link>
             <div id="services-menu">
                 <Link className="service-type-link" to="/services/hair">Hair</Link>

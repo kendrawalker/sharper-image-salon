@@ -8,7 +8,7 @@ export function AboutUs (props) {
         <div id="aboutus">
             <div id="aboutus-div">
                 <div id="about-titles-div">
-                    <div id="sharper-logo-div"><img className="about-scissors" src="/whitescissorsleft.png" /><h1 id="about-title">Sharper Image Salon</h1><img className="about-scissors" src="/whitescissors.png" /></div>
+                    <div id="sharper-logo-div"><img className="about-scissors" src="/images/whitescissorsleft.gif" /><h1 id="about-title">Sharper Image Salon</h1><img className="about-scissors" src="/images/whitescissors.gif" /></div>
                     <div id="about-subtitle">Look Your Best with Our HairCuts and Colors for All Ages</div>
                 </div>
             </div>
@@ -23,8 +23,8 @@ export function AboutUs (props) {
             <div id="about-about-div">
             </div>
             <div id="family">
-                <img className="about-pic" id="family-pic" src="/family.jpg" />
-                <img className="about-pic" id="phrase-pic" src="/perfecthairphrase.jpg" />
+                <img className="about-pic" id="family-pic" src="/images/family.jpg" />
+                <img className="about-pic" id="phrase-pic" src="/images/perfecthairphrase.jpg" />
             </div>
         </div>
     )

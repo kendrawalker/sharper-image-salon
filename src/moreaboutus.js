@@ -7,7 +7,7 @@ export function MoreAboutUs (props) {
     return (
         <div id="moreaboutus">
             <Link id="titles-div" to="/">
-                <div id="sharper-logo-div"><img className="about-scissors" src="/whitescissorsleft.png" /><h1 id="about-title">Sharper Image Salon</h1><img className="about-scissors" src="/whitescissors.png" /></div>
+                <div id="sharper-logo-div"><img className="about-scissors" src="/images/whitescissorsleft.gif" /><h1 id="about-title">Sharper Image Salon</h1><img className="about-scissors" src="/images/whitescissors.gif" /></div>
             </Link>
             <div id="moreabout">
                 <div id="moreabout-text">
@@ -17,7 +17,7 @@ export function MoreAboutUs (props) {
                 </div>
             </div>
             <div id="moreabout-pics">
-                <img className="debaprilpics" src="/april.jpg" />
+                <img className="debaprilpics" src="/images/april.jpg" />
                 <div id="owners-text">
                     <h4>The owners come with many years of experience.</h4>
                     <p>Debbie has been in the beauty industry for almost 40 years. In the past, she has taught Cosmetology for 10 years as well as spent several years as a Hair Product Consultant for salons in the region. She has also worked as an Esthetician in Cincinnati.</p>
